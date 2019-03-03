@@ -1,13 +1,11 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p>in progress... an example of using gutsby, react and graphQL for a static site<br>check this out:
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
-  </a>
+  <a href="https://nisan250.github.io/gatsby-static-site/"></a>
 </p>
 <br><br><br><br><br><br><br><br><br><br><br><br>
 
 
-https://nisan250.github.io/gatsby-static-site/
+
 <p align="center">
   <a href="https://www.gatsbyjs.org">
     <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
