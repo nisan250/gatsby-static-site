@@ -1,4 +1,7 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
+<h1 align="center">
+  Gatsby Static Site
+</h1>
 <p>in progress... an example of using gutsby, react and graphQL for a static site<br>check this out:
   <a href="https://nisan250.github.io/gatsby-static-site/">https://nisan250.github.io/gatsby-static-site/</a>
 </p>
