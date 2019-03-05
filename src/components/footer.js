@@ -3,9 +3,8 @@
 import React from "react"
 import styles from "./footer.module.scss"
 
-const Footer = ({ siteTitle }) => (
+const Footer = () => (
   <footer className={styles.mainFooter}>
-
     <div className={styles.mainSize}>
       © {new Date().getFullYear()}, Built with
       {` `}

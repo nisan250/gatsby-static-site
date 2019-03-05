@@ -16,7 +16,15 @@ src: url('../fonts/RioGrande-Regular.ttf');
     src: url('../fonts/AbhayaLibre-Regular.ttf');
     src: url('../fonts/Smokum-Regular.ttf');
     
-    }
+}
+
+$container-width: 100%;
+$site-width: 960px;
+$color-pallete-1: #222f3e;
+$color-pallete-2: #0984e3;
+
+$color-pallete-western-green: #626820;
+
 html {
     height: 100%;
 }
@@ -40,7 +48,7 @@ body {
 }
 
 a {
-    color: #626820;
+    color: $color-pallete-western-green;
     text-decoration: none;
 
     &:hover {

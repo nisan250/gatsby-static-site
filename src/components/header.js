@@ -3,6 +3,18 @@ import PropTypes from "prop-types"
 import React from "react"
 import styles from "./header.module.scss"
 
+// HeaderLink component
+const HeaderLink = props => (
+  <Link className={styles.link} to={props.to}>{props.text}</Link>
+)
+
+// HomeButton component
+// const HomeButton = props => (
+//   <Link to={props.to}>
+//     <div className={styles.button}>{props.text}</div>
+//   </Link>
+// )
+
 const Header = ({ siteTitle }) => (
   <header className={styles.mainHeader}>
     <div className={styles.mainSize}>
@@ -12,8 +24,8 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
       <nav className={styles.nav}>
-          <Link to="/">Home</Link>
-          <Link to="/about/">About</Link>
+          <HeaderLink to="/" text='Home' />
+          <HeaderLink to="/about/" text='About' />
       </nav>
     </div>
   </header>

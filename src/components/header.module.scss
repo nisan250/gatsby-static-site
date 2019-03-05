@@ -1,3 +1,5 @@
+@import '../styles/global';
+
 .main-header {
     background: rgb(102, 65, 36);
     
@@ -22,20 +24,50 @@
         }
     }
 
-    .nav {
-        a {
-            // color: #2F391E;
-            color: #fff;
-            text-decoration: none;
-            // font-weight: bold;
-            padding-left: 17px;
-            letter-spacing: 4px;
-            font-family: western-menu;
+    .link {
+        // color: #2F391E;
+        color: #fff;
+        text-decoration: none;
+        // font-weight: bold;
+        padding-left: 17px;
+        letter-spacing: 4px;
+        font-family: western-menu;
 
-            &:hover {
-                text-decoration: underline;
-            }
+        &:hover {
+            text-decoration: underline;
         }
+    }
+
+    .button {
+        background-color: $color-pallete-1;
+        display: inline-block;
+        font-size: 12px;
+        text-transform: uppercase;
+        color: white;
+        font-weight: bold;
+        height: 30px;
+        min-width: 15px;
+        line-height: 30px;
+        padding-left: 10px;
+        margin-right: 10px;
+        padding-right: 10px;
+        margin-bottom: 10px;
+
+        &:hover {
+            background-color: $color-pallete-2;
+        }
+    }
+    
+    .button-icon {
+        @extend .button;
+        background-size: 16px 16px;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .button-twitter {
+        @extend .button-icon;
+        // background-image: url('.../image/linkedin.png');
     }
 }
 
