@@ -11,7 +11,11 @@
     
     .main-title {
         margin: 0;
-        
+        letter-spacing: 4px;
+        font-family: western-title;
+        font-weight: normal;
+        text-transform: uppercase;
+
         a {
             color: orange;
             text-decoration: none;
@@ -23,8 +27,10 @@
             // color: #2F391E;
             color: #fff;
             text-decoration: none;
-            font-weight: bold;
+            // font-weight: bold;
             padding-left: 17px;
+            letter-spacing: 4px;
+            font-family: western-menu;
 
             &:hover {
                 text-decoration: underline;
