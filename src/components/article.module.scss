@@ -11,7 +11,7 @@
     &:hover {
       cursor: pointer;
 
-      @media screen and (min-width: 960px) {
+      @media screen and (min-width: $site-width) {
         box-shadow: inset $site-width 0 0 0 $color-pallete-7;
       }
 

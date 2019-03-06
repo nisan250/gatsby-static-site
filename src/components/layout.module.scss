@@ -1,13 +1,14 @@
+@import '../styles/global';
 .container {
   margin: 0 auto;
   // padding: 10px;
   flex: 1;
   overflow-y: auto;
-  width: 100%;
+  width: $container-width;
 }
 
 .mainSize {
-  max-width: 960px;
+  max-width: $site-width;
   margin: 0 auto;
 }
 // html {

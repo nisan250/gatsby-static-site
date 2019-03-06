@@ -1,11 +1,13 @@
 @import '../styles/global';
 
 .main-header {
-    background: rgb(102, 65, 36);
-    
+    background: $color-pallete-1;
+    box-shadow: 0px 5px 8px #bbb;
+    z-index: 10;
+
     .main-size {
         margin: 0 auto;
-        max-width: 960px;
+        max-width: $site-width;
         padding: 1.45rem 1.0875rem;
         display: flex;
         justify-content: space-between;
@@ -14,12 +16,11 @@
     .main-title {
         margin: 0;
         letter-spacing: 4px;
-        font-family: western-title;
         font-weight: normal;
         text-transform: uppercase;
 
         a {
-            color: orange;
+            color: $color-pallete-5;
             text-decoration: none;
         }
     }
@@ -31,7 +32,7 @@
         // font-weight: bold;
         padding-left: 17px;
         letter-spacing: 4px;
-        font-family: western-menu;
+        color: $color-pallete-5;
 
         &:hover {
             text-decoration: underline;
