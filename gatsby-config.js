@@ -3,11 +3,17 @@ module.exports = {
   siteMetadata: {
     title: `Western Spaghetti`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    author: `@nisansabag`,
   },
   plugins: [
     'gatsby-plugin-sass',
-    `gatsby-plugin-react-helmet`,
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'files',
+        path: `${__dirname}/src/markdown`,
+      }
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -15,7 +21,9 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
+    `gatsby-transformer-remark`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,

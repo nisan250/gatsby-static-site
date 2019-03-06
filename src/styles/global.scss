@@ -1,28 +1,34 @@
-@font-face {
-font-family: western-title;
-    src: url('../fonts/AbhayaLibre-Regular.ttf');
-    src: url('../fonts/Spaghetti Western NF W01 Rg.ttf');
-}
+// @font-face {
+// font-family: western-title;
+//     src: url('../fonts/AbhayaLibre-Regular.ttf');
+//     src: url('../fonts/Spaghetti Western NF W01 Rg.ttf');
+// }
 
-@font-face {
-font-family: western-menu;
-src: url('../fonts/AbhayaLibre-Regular.ttf');
-src: url('../fonts/RioGrande-Regular.ttf');
+// @font-face {
+// font-family: western-menu;
+// src: url('../fonts/AbhayaLibre-Regular.ttf');
+// src: url('../fonts/RioGrande-Regular.ttf');
 
-}
+// }
 
-@font-face {
-    font-family: western-text;
-    src: url('../fonts/AbhayaLibre-Regular.ttf');
-    src: url('../fonts/Smokum-Regular.ttf');
+// @font-face {
+//     font-family: western-text;
+//     src: url('../fonts/AbhayaLibre-Regular.ttf');
+//     src: url('../fonts/Smokum-Regular.ttf');
     
-}
+// }
 
 $container-width: 100%;
 $site-width: 960px;
 $color-pallete-1: #222f3e;
 $color-pallete-2: #0984e3;
-
+$color-pallete-3: #222f3e;
+$color-pallete-4: #ffffff;
+$color-pallete-5: #fafafa;
+$color-pallete-6: #777777;
+$color-pallete-7: #dfe6e9;
+$color-pallete-8: #000000;
+$color-pallete-9: #576574;
 $color-pallete-western-green: #626820;
 
 html {
