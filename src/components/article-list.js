@@ -17,6 +17,9 @@ export default () => (
                  keywords
                  date(formatString: "MMMM YYYY")
                }
+               fields {
+                  slug
+               }
                excerpt
              }
            }
@@ -29,6 +32,7 @@ export default () => (
          <div>
             {data.allMarkdownRemark.edges.map(({ node }) => (
                <Article id={node.id}
+                  to={node.fields.slug}
                   keywords={node.frontmatter.keywords}
                   title={node.frontmatter.title}
                   date={node.frontmatter.date}
