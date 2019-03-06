@@ -2,7 +2,7 @@
 <h1 align="center">
   Gatsby Static Site
 </h1>
-<p>in progress... an example of using gatsby, react and graphQL for a static site<br>check this out:
+<p>an example of using Gatsby, react and GraphQL for a static site<br>check this out:
   <a href="https://nisan250.github.io/gatsby-static-site/">https://nisan250.github.io/gatsby-static-site/</a>
 </p>
 <br><br><br><br><br><br><br><br><br><br><br><br>
